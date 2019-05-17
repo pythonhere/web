@@ -1,0 +1,364 @@
+{% extends 'hospital/base.html' %}
+{% load static %}
+{% block body %}
+
+  <!-- //header 2 -->
+
+
+
+	<div class="inner-banner-w3ls">
+		<div class="container">
+
+		</div>
+		<!-- //banner 2 -->
+	</div>
+	<!-- page details -->
+	<div class="breadcrumb-agile">
+		<div aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item">
+					<a href="{% url 'hospital:index' %}">Home</a>
+				</li>
+				<li class="breadcrumb-item active" aria-current="page">Doctor Profile</li>
+			</ol>
+		</div>
+	</div>
+	<!-- //page details -->
+
+     <div class="w3ls-titles text-left mb-md-5 mb-4">
+				<h4 class="title" style="background-color: gainsboro; font-size:35px; padding-top: 1rem; padding-bottom: 1rem; padding-left: 1rem">Anaesthesia & Pain Management</h4>
+
+			</div>
+
+<div class="row">
+	<div class="banner-bottom  col-lg-6  " style="padding-top: 4rem !important;" >
+
+    <div class="d-flex container" style="padding-bottom: 2rem !important; ">
+        <div class="container col-lg-offset-2 col-lg-4">
+           <img src="../../../media/hospital/anupamcover.jpg" alt="" width="250" height="200px">
+        </div>
+			<div class="banner-left-bottom-w3ls col-lg-6 ">
+				<h4 class="text-gray" style="line-height: normal;">Dr. Anupam Shrivastva</h4>
+{#                <h6 class="text-gray" style="line-height: normal;">Heart Specialist</h6>#}
+				<p style="line-height: normal; color: #545b62 ">Senior Consultant<br>
+                    Department of Anaesthesia, Critical Care & Pain Medicine</p>
+                <p><a href="{% url 'hospital:appointment' %}" class="w3ls-button-agile" style="color: #00abff">Book Appointment
+{#					<i class="fas fa-hand-point-right"></i>#}
+				</a></p>
+                <a href="{% url 'hospital:doctor1' %}" class="w3ls-button-agile" style="color: #00abff">View Profile
+					<i class="fas fa-hand-point-right"></i>
+				</a>
+			</div>
+        </div>
+    </div>
+
+<div class="banner-bottom  col-lg-6  " style="padding-top: 4rem !important;" >
+
+    <div class="d-flex container" style="padding-bottom: 2rem !important; ">
+        <div class="container col-lg-offset-2 col-lg-4">
+           <img src="../../../media/hospital/dr.-Yugam_aggarwal-big.jpg" alt="" width="250" height="200px">
+        </div>
+			<div class="banner-left-bottom-w3ls col-lg-6 ">
+				<h4 class="text-gray" style="line-height: normal;">Dr. Yugam Aggarwal</h4>
+{#                <h6 class="text-gray" style="line-height: normal;">Heart Specialist</h6>#}
+				<p style="line-height: normal; color: #545b62 ">Senior Consultant<br>
+                                                        Department of Anaesthesia</p>
+                <p><a href="{% url 'hospital:appointment' %}" class="w3ls-button-agile" style="color: #00abff">Book Appointment
+{#					<i class="fas fa-hand-point-right"></i>#}
+				</a></p>
+                <a href="{% url 'hospital:doctor2' %}" class="w3ls-button-agile" style="color: #00abff">View Profile
+					<i class="fas fa-hand-point-right"></i>
+				</a>
+			</div>
+        </div>
+    </div>
+
+<div class="banner-bottom  col-lg-6  " style="padding-top: 4rem !important;" >
+
+    <div class="d-flex container" style="padding-bottom: 2rem !important; ">
+        <div class="container col-lg-offset-2 col-lg-4">
+           <img src="../../../media/hospital/Naresh-Anandcover.jpg" alt="" width="250" height="200px">
+        </div>
+			<div class="banner-left-bottom-w3ls col-lg-6 ">
+				<h4 class="text-gray" style="line-height: normal;">Dr. Naresh Anand</h4>
+{#                <h6 class="text-gray" style="line-height: normal;">Heart Specialist</h6>#}
+				<p style="line-height: normal; color: #545b62 ">Senior Consultant<br>
+                            Department of Anaesthesia, Critical Care & Pain Medicine</p>
+                <p><a href="{% url 'hospital:appointment' %}" class="w3ls-button-agile" style="color: #00abff">Book Appointment
+{#					<i class="fas fa-hand-point-right"></i>#}
+				</a></p>
+                <a href="{% url 'hospital:doctor3' %}" class="w3ls-button-agile" style="color: #00abff">View Profile
+					<i class="fas fa-hand-point-right"></i>
+				</a>
+			</div>
+        </div>
+    </div>
+
+<div class="banner-bottom  col-lg-6  " style="padding-top: 4rem !important;" >
+
+    <div class="d-flex container" style="padding-bottom: 2rem !important; ">
+        <div class="container col-lg-offset-2 col-lg-4">
+           <img src="../../../media/hospital/kiran-patil-sml.jpg" alt="" width="250" height="200px">
+        </div>
+			<div class="banner-left-bottom-w3ls col-lg-6 ">
+				<h4 class="text-gray" style="line-height: normal;">Dr. Kiran Patil</h4>
+{#                <h6 class="text-gray" style="line-height: normal;">Heart Specialist</h6>#}
+				<p style="line-height: normal; color: #545b62 ">Senior Consultant<br>
+                                        Department of Anaesthesia & Pain Medicine</p>
+                <p><a href="{% url 'hospital:appointment' %}" class="w3ls-button-agile" style="color: #00abff">Book Appointment
+{#					<i class="fas fa-hand-point-right"></i>#}
+				</a></p>
+                <a href="{% url 'hospital:doctor4' %}" class="w3ls-button-agile" style="color: #00abff">View Profile
+					<i class="fas fa-hand-point-right"></i>
+				</a>
+			</div>
+        </div>
+    </div>
+
+<div class="banner-bottom  col-lg-6  " style="padding-top: 4rem !important;" >
+
+    <div class="d-flex container" style="padding-bottom: 4rem !important; ">
+        <div class="container col-lg-offset-2 col-lg-4">
+           <img src="../../../media/hospital/Harjinder-Kohlicover.jpg" alt="" width="250" height="200px">
+        </div>
+			<div class="banner-left-bottom-w3ls col-lg-6 ">
+				<h4 class="text-gray" style="line-height: normal;">Dr. Harjinder Kohli</h4>
+{#                <h6 class="text-gray" style="line-height: normal;">Heart Specialist</h6>#}
+				<p style="line-height: normal; color: #545b62 ">Senior Consultant<br>
+                                        Department of Anaesthesia & Pain Medicine</p>
+                <p><a href="{% url 'hospital:appointment' %}" class="w3ls-button-agile" style="color: #00abff">Book Appointment
+{#					<i class="fas fa-hand-point-right"></i>#}
+				</a></p>
+                <a href="{% url 'hospital:doctor5' %}" class="w3ls-button-agile" style="color: #00abff">View Profile
+					<i class="fas fa-hand-point-right"></i>
+				</a>
+			</div>
+        </div>
+    </div>
+
+<div class="banner-bottom  col-lg-6  " style="padding-top: 4rem !important;" >
+
+    <div class="d-flex container" style="padding-bottom: 4rem !important; ">
+        <div class="container col-lg-offset-2 col-lg-4">
+           <img src="../../../media/hospital/gaurav-kuthiala.jpg" alt="" width="250" height="200px">
+        </div>
+			<div class="banner-left-bottom-w3ls col-lg-6 ">
+				<h4 class="text-gray" style="line-height: normal;">Dr. Gaurav Kuthiala</h4>
+{#                <h6 class="text-gray" style="line-height: normal;">Heart Specialist</h6>#}
+				<p style="line-height: normal; color: #545b62 ">Senior Consultant <br>Head
+Department of Anaesthesia & Critical Care</p>
+                <p><a href="{% url 'hospital:appointment' %}" class="w3ls-button-agile" style="color: #00abff">Book Appointment
+{#					<i class="fas fa-hand-point-right"></i>#}
+				</a></p>
+                <a href="{% url 'hospital:doctor6' %}" class="w3ls-button-agile" style="color: #00abff">View Profile
+					<i class="fas fa-hand-point-right"></i>
+				</a>
+			</div>
+        </div>
+    </div>
+</div>
+
+
+<div class="w3ls-titles text-left mb-md-5 mb-4">
+				<h4 class="title" style="background-color: gainsboro; font-size:35px; padding-top: 1rem; padding-bottom: 1rem; padding-left: 1rem">Bariatric Surgery</h4>
+
+			</div>
+
+
+    <div class="row">
+	<div class="banner-bottom  col-lg-6  " style="padding-top: 4rem !important;" >
+
+    <div class="d-flex container" style="padding-bottom: 4rem !important; ">
+        <div class="container col-lg-offset-2 col-lg-4">
+           <img src="../../../media/hospital/Dr-harpal.jpg" alt="" width="250" height="200px">
+        </div>
+			<div class="banner-left-bottom-w3ls col-lg-6 ">
+				<h4 class="text-gray" style="line-height: normal;">Dr. Hrapal Singh</h4>
+{#                <h6 class="text-gray" style="line-height: normal;">Heart Specialist</h6>#}
+				<p style="line-height: normal; color: #545b62 ">Consultant<br>
+                    Gastrointestinal Surgery, Minimal Access Metabolic and Bariatric Surgery and Advanced Laparoscopic Surgery</p>
+                <p><a href="{% url 'hospital:appointment' %}" class="w3ls-button-agile" style="color: #00abff">Book Appointment
+{#					<i class="fas fa-hand-point-right"></i>#}
+				</a></p>
+                <a href="{% url 'hospital:doctor7' %}" class="w3ls-button-agile" style="color: #00abff">View Profile
+					<i class="fas fa-hand-point-right"></i>
+				</a>
+			</div>
+        </div>
+    </div>
+
+	<div class="banner-bottom  col-lg-6  " style="padding-top: 4rem !important;" >
+
+    <div class="d-flex container" style="padding-bottom: 4rem !important; ">
+        <div class="container col-lg-offset-2 col-lg-4">
+           <img src="../../../media/hospital/js-grewal-big.jpg" alt="" width="250" height="200px">
+        </div>
+			<div class="banner-left-bottom-w3ls col-lg-6 ">
+				<h4 class="text-gray" style="line-height: normal;">Dr. Jasparkash Singh Grewal</h4>
+{#                <h6 class="text-gray" style="line-height: normal;">Heart Specialist</h6>#}
+				<p style="line-height: normal; color: #545b62 ">Senior Consultant & Coordinate<br>
+                                                    Department of Interventional Cardiology</p>
+                <p><a href="{% url 'hospital:appointment' %}" class="w3ls-button-agile" style="color: #00abff">Book Appointment
+{#					<i class="fas fa-hand-point-right"></i>#}
+				</a></p>
+                <a href="{% url 'hospital:doctor8' %}" class="w3ls-button-agile" style="color: #00abff">View Profile
+					<i class="fas fa-hand-point-right"></i>
+				</a>
+			</div>
+        </div>
+    </div>
+    </div>
+<div class="w3ls-titles text-left mb-md-5 mb-4">
+				<h4 class="title" style="background-color: gainsboro; font-size:35px; padding-top: 1rem; padding-bottom: 1rem; padding-left: 1rem">Cardiology</h4>
+
+			</div>
+
+<div class="row">
+	<div class="banner-bottom  col-lg-6  " style="padding-top: 4rem !important;" >
+
+    <div class="d-flex container" style="padding-bottom: 4rem !important; ">
+        <div class="container col-lg-offset-2 col-lg-4">
+           <img src="../../../media/hospital/kuka.jpg" alt="" width="250" height="200px">
+        </div>
+			<div class="banner-left-bottom-w3ls col-lg-6 ">
+				<h4 class="text-gray" style="line-height: normal;">Dr. Ravninder Singh Kuka</h4>
+{#                <h6 class="text-gray" style="line-height: normal;">Heart Specialist</h6>#}
+				<p style="line-height: normal; color: #545b62 ">Consultant<br>
+                                                Department of Interventional Cardiology</p>
+                <p><a href="{% url 'hospital:appointment' %}" class="w3ls-button-agile" style="color: #00abff">Book Appointment
+{#					<i class="fas fa-hand-point-right"></i>#}
+				</a></p>
+                <a href="{% url 'hospital:doctor9' %}" class="w3ls-button-agile" style="color: #00abff">View Profile
+					<i class="fas fa-hand-point-right"></i>
+				</a>
+			</div>
+        </div>
+    </div>
+</div>
+
+    <div class="w3ls-titles text-left mb-md-5 mb-4">
+				<h4 class="title" style="background-color: gainsboro; font-size:35px; padding-top: 1rem; padding-bottom: 1rem; padding-left: 1rem">Cardio Thoracic & Vascular Surgery</h4>
+
+			</div>
+
+    <div class="row">
+	<div class="banner-bottom  col-lg-6  " style="padding-top: 4rem !important;" >
+
+    <div class="d-flex container" style="padding-bottom: 4rem !important; ">
+        <div class="container col-lg-offset-2 col-lg-4">
+           <img src="../../../media/hospital/Dr-Manoj-Agny-b.jpg" alt="" width="250" height="200px">
+        </div>
+			<div class="banner-left-bottom-w3ls col-lg-6 ">
+				<h4 class="text-gray" style="line-height: normal;">Dr. Manoj Agny</h4>
+{#                <h6 class="text-gray" style="line-height: normal;">Heart Specialist</h6>#}
+				<p style="line-height: normal; color: #545b62 ">Consultant<br>
+                                                Senior Consultant Cardiac and Transplant Surgeon</p>
+                <p><a href="{% url 'hospital:appointment' %}" class="w3ls-button-agile" style="color: #00abff">Book Appointment
+{#					<i class="fas fa-hand-point-right"></i>#}
+				</a></p>
+                <a href="{% url 'hospital:doctor10' %}" class="w3ls-button-agile" style="color: #00abff">View Profile
+					<i class="fas fa-hand-point-right"></i>
+				</a>
+			</div>
+        </div>
+    </div>
+    </div>
+
+
+     <div class="w3ls-titles text-left mb-md-5 mb-4">
+				<h4 class="title" style="background-color: gainsboro; font-size:35px; padding-top: 1rem; padding-bottom: 1rem; padding-left: 1rem">Critical Care</h4>
+
+			</div>
+
+    <div class="row">
+	<div class="banner-bottom  col-lg-6  " style="padding-top: 4rem !important;" >
+
+    <div class="d-flex container" style="padding-bottom: 4rem !important; ">
+        <div class="container col-lg-offset-2 col-lg-4">
+           <img src="../../../media/hospital/Dr-Samta-Goyal-b.jpg" alt="" width="250" height="200px">
+        </div>
+			<div class="banner-left-bottom-w3ls col-lg-6 ">
+				<h4 class="text-gray" style="line-height: normal;">Dr. Samta Goyal</h4>
+{#                <h6 class="text-gray" style="line-height: normal;">Heart Specialist</h6>#}
+				<p style="line-height: normal; color: #545b62 ">Consultant<br>
+                                                Department of Critical Care</p>
+                <p><a href="{% url 'hospital:appointment' %}" class="w3ls-button-agile" style="color: #00abff">Book Appointment
+{#					<i class="fas fa-hand-point-right"></i>#}
+				</a></p>
+                <a href="{% url 'hospital:doctor11' %}" class="w3ls-button-agile" style="color: #00abff">View Profile
+					<i class="fas fa-hand-point-right"></i>
+				</a>
+			</div>
+        </div>
+    </div>
+
+	<div class="banner-bottom  col-lg-6  " style="padding-top: 4rem !important;" >
+
+    <div class="d-flex container" style="padding-bottom: 4rem !important; ">
+        <div class="container col-lg-offset-2 col-lg-4">
+           <img src="../../../media/hospital/Dr-Puneet-Chopra-b.JPG" alt="" width="250" height="200px">
+        </div>
+			<div class="banner-left-bottom-w3ls col-lg-6 ">
+				<h4 class="text-gray" style="line-height: normal;">Dr. Puneet Chopra</h4>
+{#                <h6 class="text-gray" style="line-height: normal;">Heart Specialist</h6>#}
+				<p style="line-height: normal; color: #545b62 ">Consultant<br>
+                                                Department of Critical Care</p>
+                <p><a href="{% url 'hospital:appointment' %}" class="w3ls-button-agile" style="color: #00abff">Book Appointment
+{#					<i class="fas fa-hand-point-right"></i>#}
+				</a></p>
+                <a href="{% url 'hospital:doctor12' %}" class="w3ls-button-agile" style="color: #00abff">View Profile
+					<i class="fas fa-hand-point-right"></i>
+				</a>
+			</div>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="row">
+	<div class="banner-bottom  col-lg-6  " style="padding-top: 4rem !important;" >
+
+    <div class="d-flex container" style="padding-bottom: 4rem !important; ">
+        <div class="container col-lg-offset-2 col-lg-4">
+           <img src="../../../media/hospital/Dr-Vishal-Mittal-b.jpg" alt="" width="250" height="200px">
+        </div>
+			<div class="banner-left-bottom-w3ls col-lg-6 ">
+				<h4 class="text-gray" style="line-height: normal;">Dr. Vishal Mittal</h4>
+{#                <h6 class="text-gray" style="line-height: normal;">Heart Specialist</h6>#}
+				<p style="line-height: normal; color: #545b62 ">Consultant<br>
+                                                Department of Critical Care</p>
+                <p><a href="{% url 'hospital:appointment' %}" class="w3ls-button-agile" style="color: #00abff">Book Appointment
+{#					<i class="fas fa-hand-point-right"></i>#}
+				</a></p>
+                <a href="{% url 'hospital:doctor13' %}" class="w3ls-button-agile" style="color: #00abff">View Profile
+					<i class="fas fa-hand-point-right"></i>
+				</a>
+			</div>
+        </div>
+    </div>
+
+        <div class="banner-bottom  col-lg-6  " style="padding-top: 4rem !important;" >
+
+    <div class="d-flex container" style="padding-bottom: 4rem !important; ">
+        <div class="container col-lg-offset-2 col-lg-4">
+           <img src="../../../media/hospital/Dr.-Atul-Phillips-b.jpg" alt="" width="250" height="200px">
+        </div>
+			<div class="banner-left-bottom-w3ls col-lg-6 ">
+				<h4 class="text-gray" style="line-height: normal;">
+                                                        Dr. Atul Philips
+                                                                        </h4>
+{#                <h6 class="text-gray" style="line-height: normal;">Heart Specialist</h6>#}
+				<p style="line-height: normal; color: #545b62 ">Consultant<br>
+                                                Department of Critical Care</p>
+                <p><a href="{% url 'hospital:appointment' %}" class="w3ls-button-agile" style="color: #00abff">Book Appointment
+{#					<i class="fas fa-hand-point-right"></i>#}
+				</a></p>
+                <a href="{% url 'hospital:doctor14' %}" class="w3ls-button-agile" style="color: #00abff">View Profile
+					<i class="fas fa-hand-point-right"></i>
+				</a>
+			</div>
+        </div>
+    </div>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,7 @@
+{% extends 'hospital/base.html' %}
+
+{% block body %}
+   {% if user.is_authenticated %}
+    welcome you are successfully login ---- {{ user }} !!!
+    {% endif %}
+{% endblock %}

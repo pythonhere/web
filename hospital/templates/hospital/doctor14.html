@@ -1,0 +1,86 @@
+{% extends 'hospital/base.html' %}
+{% load static %}
+{% block body %}
+	<!-- banner 2 -->
+	<div class="inner-banner-w3ls">
+		<div class="container">
+
+		</div>
+		<!-- //banner 2 -->
+	</div>
+	<!-- page details -->
+	<div class="breadcrumb-agile">
+		<div aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item">
+					<a href="{% url 'hospital:index' %}">Home</a>
+				</li>
+				<li class="breadcrumb-item">
+                    <a href="{% url 'hospital:about' %}">Team</a>
+                   </li>
+                <li class="breadcrumb-item active" aria-current="page">Doctor's Profile</li>
+			</ol>
+		</div>
+	</div>
+	<!-- //page details -->
+
+	<section class="about py-5">
+		<div class="container py-xl-5 py-lg-3">
+			<div class="w3ls-titles text-left mb-md-5 mb-4">
+				<h4 class="title" style="background-color: gainsboro; font-size:40px; padding-top: 1rem; padding-bottom: 1rem; padding-left: 1rem">Dr. Atul Philips</h4>
+
+			</div>
+            <div class="row about_grids mt-5">
+                <div class="container py-xl-5 py-lg-3">
+			<div class="w3ls-titles text-center mb-5" >
+			</div>
+			<div class="row package-grids mt-5" style="margin-top: -4rem !important;">
+				<div class="col-md-4">
+					<div class="price-top">
+                        <img src="../../../media/hospital/Dr.-Atul-Phillips-b.jpg" style="height: 300px ; width: 100%; "  alt="">
+                    </div>
+                </div>
+                <div class="col-md-8 my-md-0 my-5">
+					<div class="price-top">
+
+              <h4 class="aboutpara text-left mx-auto" style="color: orangered">
+                  Designation:
+              </h4>
+<p class="aboutpara text-left mx-auto" style="color: #1b1e21">
+                 Consultant
+              </p>
+
+                        <h4 class="aboutpara text-left mx-auto" style="color: orangered">
+                  Department + Services:
+              </h4>
+<p class="aboutpara text-left mx-auto" style="color: #1b1e21">
+                 Department of Critical Care
+              </p>
+
+                        <h4 class="aboutpara text-left mx-auto" style="color: orangered">
+                  Qualification & Fellowship:
+              </h4>
+<p class="aboutpara text-left mx-auto" style="color: #1b1e21">
+
+    MBBS,MD,FNB (Critical Care Medicine).<br>
+    MD (Anaethesia)-CMC Ludhiana.<br><br>
+    <p><a href="{% url 'hospital:appointment' %}" class="w3ls-button-agile" style="color: #00abff">Book Appointment
+				</a></p>
+
+              </p> <br>
+
+
+
+
+
+
+                    </div>
+                    </div>
+		</div>
+            </div>
+                </div>
+            </div>
+		</div>
+
+    </section>
+{% endblock %}
